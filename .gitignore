@@ -1,0 +1,38 @@
+# ---- Data & model artifacts (never commit, can be large / re-downloaded) ----
+data/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/
+!models/.gitkeep
+reports/*.png
+reports/*.html
+!reports/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Tooling / IDE ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+.env
